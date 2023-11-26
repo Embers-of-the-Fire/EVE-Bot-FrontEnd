@@ -1,0 +1,27 @@
+{
+  "title": "Search Pattern",
+  "description": "Search pattern mixin",
+  "arg_prefix": "--mixin search-pattern",
+  "positional_args": [
+  ],
+  "param_args": [
+    {
+      "arg_name": "pattern",
+      "alias": ["pat", "sql"],
+      "description": "How to search the item",
+      "arg_type": {
+        "EnumText": [
+          "a",
+          "absolute",
+          "f",
+          "fuzzy",
+          "m",
+          "manual"
+        ]
+      },
+      "default": {
+        "EnumText": "fuzzy"
+      }
+    }
+  ]
+}

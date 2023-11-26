@@ -1,0 +1,18 @@
+{
+  "title": "Jita Market",
+  "description": "Market of Jita system.",
+  "arg_prefix": "eve market jita",
+  "positional_args": [
+    {
+      "arg_name": "type_name",
+      "arg_type": "AnyText",
+      "description": "Type name."
+    }
+  ],
+  "param_args": [
+  ],
+  "mixin": [
+    "evebot-gocq-wrapper/syntax/mixin/search_pattern.json",
+    "evebot-gocq-wrapper/syntax/mixin/market_server.json"
+  ]
+}

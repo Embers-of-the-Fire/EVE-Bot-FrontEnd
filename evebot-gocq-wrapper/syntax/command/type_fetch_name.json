@@ -1,0 +1,17 @@
+{
+  "title": "Type Fetch Name",
+  "description": "Fetch a type item by its name.",
+  "arg_prefix": "eve item type name",
+  "positional_args": [
+    {
+      "arg_name": "type_name",
+      "arg_type": "AnyText",
+      "description": "Type name."
+    }
+  ],
+  "param_args": [
+  ],
+  "mixin": [
+    "evebot-gocq-wrapper/syntax/mixin/search_pattern.json"
+  ]
+}

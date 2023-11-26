@@ -1,0 +1,20 @@
+eve:
+  market:
+    jita:
+      title: Jita Market
+      desc: Market of Jita system.
+  blp:
+    mat:
+      title: Blueprint Material
+      desc: Material of a blueprint.
+  item:
+    skill:
+      title: Item Skill
+      desc: Skill image of an item.
+    type:
+      id:
+        title: Type Fetch ID
+        desc: Fetch a type item by its id.
+      name:
+        title: Type Fetch Name
+        desc: Fetch a type item by its name.

@@ -1,0 +1,54 @@
+{
+  "title": "Blueprint",
+  "description": "Blueprint common parameters mixin",
+  "arg_prefix": "--mixin blueprint",
+  "positional_args": [
+  ],
+  "param_args": [
+    {
+      "arg_name": "expand",
+      "alias": ["exp", "e"],
+      "description": "Whether to expand the blueprint.",
+      "arg_type": "Boolean",
+      "default": {
+        "Boolean": false
+      }
+    },
+    {
+      "arg_name": "manu_mat_level",
+      "alias": ["manumat", "mml", "mm"],
+      "description": "The level of all blueprints' material level.",
+      "arg_type": "Int",
+      "default": {
+        "Int": 0
+      }
+    },
+    {
+      "arg_name": "manu_time_level",
+      "alias": ["manutime", "mtl", "mt"],
+      "description": "The level of all blueprints' time level.",
+      "arg_type": "Int",
+      "default": {
+        "Int": 0
+      }
+    },
+    {
+      "arg_name": "extra_mat",
+      "alias": ["extramat", "em"],
+      "description": "The extra factor of all blueprints' material. Note: This is a percentage.",
+      "arg_type": "Float",
+      "default": {
+        "Float": 0.0
+      }
+    },
+    {
+      "arg_name": "extra_time",
+      "alias": ["extratime", "et"],
+      "description": "The extra factor of all blueprints' time. Note: This is a percentage.",
+      "arg_type": "Float",
+      "default": {
+        "Float": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "path-ident": "market",
+    "path-alias": [
+      "mkt"
+    ],
+    "description": "Market data.",
+    "group-name": "Market Price",
+    "subcommand": [
+      {
+        "path-ident": "jita",
+        "structure-path": "super::market::JitaPrice",
+        "description": "Market of Jita system."
+      }
+    ]
+  },
+  {
+    "path-ident": "item",
+    "description": "Data of items in EVE.",
+    "group-name": "Item Data",
+    "subcommand": [
+      {
+        "path-ident": "skill",
+        "structure-path": "super::skills::Skill",
+        "description": "Skill image of an item."
+      }
+    ],
+    "subgroup": [
+      {
+        "path-ident": "type",
+        "description": "EVE type-item data.",
+        "group-name": "Item Type",
+        "subcommand": [
+          {
+            "path-ident": "id",
+            "structure-path": "super::type_item::TypeFetchId",
+            "description": "Fetch a type item by its id."
+          },
+          {
+            "path-ident": "name",
+            "structure-path": "super::type_item::TypeFetchName",
+            "description": "Fetch a type item by its name."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path-ident": "blueprint",
+    "path-alias": [
+      "blp"
+    ],
+    "description": "Blueprint data.",
+    "group-name": "Blueprint Data",
+    "subcommand": [
+      {
+        "path-ident": "material",
+        "path-alias": [
+          "mat"
+        ],
+        "structure-path": "super::blp::BlpMaterial",
+        "description": "Material of a blueprint."
+      },
+      {
+        "path-ident": "price",
+        "structure-path": "super::blp::BlpMaterialPrice",
+        "description": "Material price of a blueprint."
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+# IDE / Editor
+/.vscode
+/.idea
+*.code-workspace
+
+# Rsut build resource
+/target
+
+# Test files
+test.*
+
+
+# Secret files
+/go-cqhttp
+
+# Macro expansion
+/macro-expand

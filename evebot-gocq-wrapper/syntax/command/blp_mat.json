@@ -1,0 +1,18 @@
+{
+  "title": "Blueprint Material",
+  "description": "Material of a blueprint.",
+  "arg_prefix": "eve blp mat",
+  "positional_args": [
+    {
+      "arg_name": "type_name",
+      "arg_type": "AnyText",
+      "description": "Type name."
+    }
+  ],
+  "param_args": [
+  ],
+  "mixin": [
+    "evebot-gocq-wrapper/syntax/mixin/blueprint.json",
+    "evebot-gocq-wrapper/syntax/mixin/search_pattern.json"
+  ]
+}

@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "evebot-gocq-wrapper",
+    "evebot-proc-macro",
+]
+exclude = [
+    "go-cqhttp",
+    "ManualImage",
+    "macro-expand",
+    "workspace"
+]
+resolver = "2"

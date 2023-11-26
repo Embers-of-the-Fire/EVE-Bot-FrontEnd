@@ -1,0 +1,16 @@
+{
+  "title": "Type Fetch ID",
+  "description": "Fetch a type item by its id.",
+  "arg_prefix": "eve item type id",
+  "positional_args": [
+    {
+      "arg_name": "type_id",
+      "arg_type": "Int",
+      "description": "Type id."
+    }
+  ],
+  "param_args": [],
+  "mixin": [
+    "evebot-gocq-wrapper/syntax/mixin/search_pattern.json"
+  ]
+}

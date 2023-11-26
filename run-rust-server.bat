@@ -1,0 +1,1 @@
+./go-cqhttp_windows_amd64/rust_dist/evebot.exe

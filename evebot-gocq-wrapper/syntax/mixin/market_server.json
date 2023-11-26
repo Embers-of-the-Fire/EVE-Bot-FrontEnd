@@ -1,0 +1,19 @@
+{
+  "title": "Market Server",
+  "description": "Market service provider.",
+  "arg_prefix": "--mixin market-server",
+  "positional_args": [
+  ],
+  "param_args": [
+    {
+      "arg_name": "server",
+      "description": "The server to connect to.",
+      "arg_type": {
+        "EnumText": ["se", "tq"]
+      },
+      "default": {
+        "EnumText": "se"
+      }
+    }
+  ]
+}

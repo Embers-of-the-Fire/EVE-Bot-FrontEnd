@@ -1,0 +1,28 @@
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "time": 123,
+  "self_id": 5050,
+  "post_type": "message",
+  "sub_type": "normal",
+  "message_id": 505,
+  "user_id": 1050,
+  "message": [
+    {
+      "type": "at",
+      "data": {
+        "qq": 0
+      }
+    },
+    {
+      "type": "text",
+      "data": {
+        "text": "eve ac"
+      }
+    }
+  ],
+  "raw_message": "@user abcdef"
+}
+
+###

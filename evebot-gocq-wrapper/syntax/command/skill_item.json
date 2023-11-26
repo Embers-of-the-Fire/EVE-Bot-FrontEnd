@@ -1,0 +1,17 @@
+{
+  "title": "Item Skill",
+  "description": "Skill image of an item.",
+  "arg_prefix": "eve item skill",
+  "positional_args": [
+    {
+      "arg_name": "type_name",
+      "arg_type": "AnyText",
+      "description": "Type name."
+    }
+  ],
+  "param_args": [
+  ],
+  "mixin": [
+    "evebot-gocq-wrapper/syntax/mixin/search_pattern.json"
+  ]
+}
